@@ -201,27 +201,6 @@ Follow these commands to push this codebase to your GitHub repository:
 
 ---
 
-## 🌐 How to Host on Render
-
-Deploy this application for free on [Render](https://render.com/):
-
-1. **Sign in to Render** using your GitHub account at [render.com](https://render.com/).
-2. Click **New +** and select **Web Service**.
-3. Connect your **`code-smell-detector`** GitHub repository.
-4. Configure the service settings:
-   - **Name**: `code-smell-detector` (or your preferred name)
-   - **Region**: Choose closest to you
-   - **Branch**: `main`
-   - **Root Directory**: (Leave blank)
-   - **Runtime**: `Python 3`
-   - **Build Command**: `pip install -r requirements.txt`
-   - **Start Command**: `gunicorn app:app`
-5. Click **Create Web Service**.
-
-Render will automatically build and deploy your service. Once finished, your live app will be accessible via a public URL such as `https://code-smell-detector.onrender.com`.
-
----
-
 ## 📡 REST API Reference
 
 ### 1. Analyze GitHub Repository
